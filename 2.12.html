@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Your order</h1>
+
+    <form action="" method="get" id="order-form">
+      <div>
+        <div>
+          <label for="order-name">Name</label
+          ><input
+            type="text"
+            name="order-name"
+            id="order-name"
+            placeholder="Fill your names"
+            outofocus
+          />
+        </div>
+        <div>
+          <label for="order-email">Email address</label
+          ><input type="text" email="order-email" id="order-email" />
+        </div>
+      </div>
+
+      <div>
+        <label for="oreder-address- 1">Address</label>
+        <input type="text" name="order-address-1" id="order-address-1" />
+        <input type="text" name="order-address-2" id="order-address-2" />
+      </div>
+
+      <div>
+        <label for="order-city">City</label
+        ><input type="text" name="order-city" id="order-city" />
+      </div>
+      <div>
+        <label for="order-state">State</label
+        ><select name="order-state" id="order-state">
+          <option value="ALABAMA">ALABAMA</option>
+          <option value="Rwanda">Rwanda</option>
+          <option value="Zambia">Zambia</option>
+          <option value="Kenya">Kenya</option>
+        </select>
+      </div>
+      <div>
+        <label for="order-zip">Zip</label
+        ><input type="text" name="order-zip" id="order-zip" />
+      </div>
+      <div>
+        <label for="order-color-sample">What color should we send you?</label
+        ><br />
+        <label for="sample-white">
+          <input
+            type="checkbox"
+            name="color-sample"
+            id="sample-white"
+            value="white"
+            disabled
+          />White
+        </label>
+        <label for="sample-violet">
+          <input
+            type="checkbox"
+            name="color-violet"
+            id="sample-"
+            value="violet"
+          />Violet
+        </label>
+        <label for="sample-red">
+          <input
+            type="checkbox"
+            name="color-sample"
+            id="sample-red"
+            value="red"
+          />Red
+        </label>
+      </div>
+
+      <div>
+        <label for="order-team-size">How large is your team</label><br />
+
+        <label for="team-small">
+          <input type="radio" name="team-size" id="team-small" value="1-5" />
+          1-5 people</label
+        >
+        <label for="team-medium">
+          <input type="radio" name="team-size" id="team-medium" value="6-10" />
+          6-10 people</label
+        >
+        <label for="team-large">
+          <input type="radio" name="team-size" id="team-large" value="10+" />
+          10+ people</label
+        >
+      </div>
+      <div>
+        <label for="order-comment">Comments</label><br>
+        <textarea
+          name="order-comment"
+          id="order-comment"
+          cols="30"
+          rows="5"
+        ></textarea>
+      </div>
+
+      <div>
+<label for="offer-sign-up">
+    <input type="checkbox" name="offer-sign-up"> Sign up for special offer
+</label>
+      </div>
+    </form>
+    <button form="order-form">Place button</button>
+  </body>
+</html>
